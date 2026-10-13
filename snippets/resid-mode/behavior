@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Behavior declaration
+# key: behavior
+# --
+behavior ${1:Name}(${2:T}) {
+    ${3:Int} ${4:op}(${2:T} a);
+}

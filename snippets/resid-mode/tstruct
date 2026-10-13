@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Product type
+# key: tstruct
+# --
+type ${1:Point} = { ${2:Int} ${3:x}; ${4:Int} ${5:y}; };

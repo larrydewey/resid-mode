@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: if-else expression
+# key: ife
+# --
+if (${1:cond}) { ${2:a} } else { ${3:b} }

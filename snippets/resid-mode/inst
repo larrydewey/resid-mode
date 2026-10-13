@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Name the function a behavior uses for a type
+# key: inst
+# --
+${1:Show}(${2:Type}) = ${3:fn_name};

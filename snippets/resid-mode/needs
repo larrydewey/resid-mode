@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Behaviors a generic body uses
+# key: needs
+# --
+@needs(${1:Ord}(${2:T}))

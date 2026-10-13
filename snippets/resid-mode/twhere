@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Constraint type with predicate
+# key: twhere
+# --
+type ${1:Positive} = ${2:Int}[value > 0];

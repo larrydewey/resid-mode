@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Pattern match
+# key: match
+# --
+match ${1:expr} {
+    ${2:Some(x)} => $3,
+    ${4:None} => $5
+}

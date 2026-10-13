@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Immutable binding
+# key: let
+# --
+${1:Int} ${2:x} = $0;

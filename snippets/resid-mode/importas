@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Import with alias
+# key: importas
+# --
+import "${1:file}.resid" as ${2:M};

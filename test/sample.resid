@@ -1,0 +1,36 @@
+// Indentation fixture: this file is already in canonical style, so
+// reindenting it must change nothing.
+import "util.resid";
+
+/// A point.
+type Point = { Int x; Int y; };
+
+type Shape = Circle(Int) | Empty;
+
+behavior Name(T) {
+    Int op(T a);
+}
+
+/* A block
+ * comment. */
+@requires(filesystem(readonly), clock)
+pub Int area(Shape s) {
+    Int r = match s {
+        Circle(n) => n * n,
+        Empty => 0
+    };
+    if (r > 10) {
+        return r;
+    } else {
+        Str t = f"{r:8} {{literal}}";
+        List(Int) xs = [
+            1,
+            2
+        ];
+        return wrapping_add(r, xs.len());
+    }
+}
+
+test "area" {
+    expect(area(Circle(2))).toEqual(4);
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Capability requirement annotation
+# key: requires
+# --
+@requires(${1:filesystem(readonly)})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Runtime assertion
+# key: rt_assert
+# --
+rt_assert(${1:cond}, "${2:message}");

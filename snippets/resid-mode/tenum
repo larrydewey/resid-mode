@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Sum type
+# key: tenum
+# --
+type ${1:Shape} = ${2:Circle}(${3:Int}) | ${4:Empty};

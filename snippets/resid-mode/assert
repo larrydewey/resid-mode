@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Compile-time assertion
+# key: assert
+# --
+assert(${1:cond}, "${2:message}");

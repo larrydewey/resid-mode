@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Import selected names
+# key: importn
+# --
+import "${1:file}.resid" (${2:a, b});

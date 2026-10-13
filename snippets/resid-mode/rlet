@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Residual binding (rt expression)
+# key: rlet
+# --
+${1:Int} ${2:x} = rt $0;

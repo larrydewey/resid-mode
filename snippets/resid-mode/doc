@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Documentation comment line
+# key: doc
+# --
+/// $0

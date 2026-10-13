@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Import under a capability ceiling
+# key: importreq
+# --
+import "${1:file}.resid" @requires(${2:filesystem(readonly)});

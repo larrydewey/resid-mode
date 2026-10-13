@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Interpolated string
+# key: fstr
+# --
+f"${1}{${2:x}}"

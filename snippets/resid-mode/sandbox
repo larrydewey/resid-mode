@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Capability sandbox
+# key: sandbox
+# --
+sandbox (${1:filesystem(readonly)}) {
+    $0
+}

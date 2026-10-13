@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Inline test
+# key: test
+# --
+test "${1:name}" {
+    $0
+}

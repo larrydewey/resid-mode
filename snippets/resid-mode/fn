@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Function definition
+# key: fn
+# --
+${1:Int} ${2:name}(${3:Int x}) {
+    $0
+}

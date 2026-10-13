@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for-in loop
+# key: for
+# --
+for (${1:Int} ${2:x} in ${3:xs}) {
+    $0
+}
